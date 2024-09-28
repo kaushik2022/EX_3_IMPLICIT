@@ -1,4 +1,37 @@
 ## EXPERIMENT:03  Implement an application that uses Intent(Implicit) using Android Studio.
+## EQUIPMENTS REQUIRED:
+
+Latest Version Android Studio
+
+## ALGORITHM:
+
+Step 1: Open Android Stdio and then click on File -> New -> New project.
+
+Step 2: Then type the Application name as implicitintent and click Next.
+
+Step 3: Then select the Minimum SDK as shown below and click Next.
+
+Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+
+Step 5: Design layout in activity_main.xml.
+
+Step 6: Type any url, click navigate and that will take you to the expected url.
+
+Step 7: Save and run the application.
+
+
+## PROGRAM:
+```
+/*
+Program to print the text “Implicitintent”.
+Developed by: kaushik K
+Registeration Number :  212222040074
+*/
+```
+
+## MainActivity.java:
+
+```
 package com.example.Exp_3;
 
 import android.content.Intent;
@@ -31,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-
 ## activitymain.xml:
 
 ```
