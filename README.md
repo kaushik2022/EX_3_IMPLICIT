@@ -29,7 +29,7 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Implicitintent”.
-Developed by: kaushik k
+Developed by: Jkaushik K
 Registeration Number :  212222040074
 */
 ```
@@ -58,3 +58,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final EditText editText = (EditText) findViewById(R.id.urlText);
         Button btn = (Button) findViewById(R.id.btnNavigate);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = editText.getText().toString();
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
