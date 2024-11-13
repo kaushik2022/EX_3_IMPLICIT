@@ -97,5 +97,8 @@ public class MainActivity extends AppCompatActivity {
 
 ![Screenshot 2024-09-17 134724](https://github.com/user-attachments/assets/8a9608bc-21a4-46b3-a0d7-54330aa5e160)
 
+
+
+
 ## RESULT
 Thus a Simple Android Application create a navigate button using Implicit Intent to display the web page using Android Studio was developed and executed successfully.
